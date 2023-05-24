@@ -1,0 +1,62 @@
+/* ALL VIEW */
+
+:root{
+  --Grayish-blue: hsl(237, 18%, 59%);
+  --Soft-red: hsl(345, 95%, 68%);
+  --White: hsl(0, 0%, 100%);
+  --Dark-desaturated-blue: hsl(236, 21%, 26%);
+  --Very-dark-blue: hsl(235, 16%, 14%);
+  --Very-dark-mostly-black-blue: hsl(234, 17%, 12%);
+  }
+ 
+  
+  *{
+      font-family: 'Red Hat Text', sans-serif;
+  }
+  
+  html{
+      background-image: url("images/bg-stars.svg");
+      background-color: var(--Very-dark-blue);
+      height: 100vh;
+  }
+  
+  body{
+      margin: 0px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      background-image: url("images/pattern-hills.svg");
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: contain;
+  }
+
+  .containerTop{
+    color: white;
+    letter-spacing: 0.3rem;
+    margin-top: 10rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.containerMid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.icon{
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-bottom: 4rem;
+}
+
+.icon:hover{
+  filter: brightness(0) saturate(100%) invert(45%) sepia(90%) saturate(1200%) hue-rotate(310deg) brightness(106%) contrast(100%);
+}
+
+
